@@ -52,6 +52,7 @@ body {
 
 .home-content {
     max-width: 600px;
+    background-color: transparent;
 }
 
 .home-content h1 {
@@ -63,4 +64,44 @@ body {
     font-size: 36px;
     font-weight: 700px;
     color: #00abf0;
+}
+
+.home-content p {
+    font-size: 16px;
+}
+
+.home-content btn-box {
+    display: flex;
+    width: 345px;
+    height: 50px;
+    background-color: transparent;
+    justify-content: space-between;
+}
+
+.btn-box a {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 150px;
+    height: 10%;
+    background: #00abf0;
+    text-decoration: none;
+    color: #081b29;
+    border: 2px solid #00abf0;
+    font-weight: 600;
+    border-radius: 8px;
+    letter-spacing: 1px;
+    font-size: 16px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-top: 25px;
+
+
+}
+
+.btn-box a:nth-child(2) {
+    background: transparent;
+    color: #ededed;
+    margin-left: 25px;
+
 }
