@@ -10,3 +10,16 @@ body {
 
 }
 
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 10%;
+    display: flex;
+    background-color: yellowgreen;
+    justify-content: space-between;
+    z-index: 100;
+}
+
+
