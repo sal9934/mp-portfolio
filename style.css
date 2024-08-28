@@ -28,3 +28,11 @@ body {
     text-decoration: none;
     font-weight: 600;
 }
+
+.navbar a {
+    font-weight: 500;
+    font-size: 18px;
+    text-decoration: none;
+    color: #ededed;
+    margin-left: 35px;
+}
