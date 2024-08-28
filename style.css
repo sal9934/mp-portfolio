@@ -17,7 +17,7 @@ body {
     width: 100%;
     padding: 20px 10%;
     display: flex;
-    background-color: yellowgreen;
+    background-color: transparent;
     justify-content: space-between;
     z-index: 100;
 }
@@ -35,4 +35,10 @@ body {
     text-decoration: none;
     color: #ededed;
     margin-left: 35px;
+    transition: 0.24s;
 }
+
+.navbar a:hover, .navbar a.active {
+    color: #2474ad;
+}
+
