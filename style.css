@@ -102,3 +102,26 @@ body {
     color: #ededed;
     margin-left: 25px;
 }
+
+.home-sci {
+    position: absolute;
+    bottom: 40px;
+    width: 170px;
+    background: transparent;
+    display: inline-flex;
+    justify-content: space-between;
+}
+
+.home-sci a {
+    position: relative;
+    display: inline-flex;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    border: 2px solid #00abf0 ;
+    border-radius: 50%;
+    text-decoration: none;
+    align-items: center;
+    color: #00abf0;
+    font-size: 20px;
+}
