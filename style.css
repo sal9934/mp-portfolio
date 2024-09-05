@@ -95,13 +95,10 @@ body {
     padding-top: 5px;
     padding-bottom: 5px;
     margin-top: 25px;
-
-
 }
 
 .btn-box a:nth-child(2) {
     background: transparent;
     color: #ededed;
     margin-left: 25px;
-
 }
